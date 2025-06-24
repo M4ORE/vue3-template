@@ -18,7 +18,23 @@
 - Node.js 16+
 - npm 或 yarn
 
-### 安裝
+### 使用模板創建新專案
+
+使用 degit 快速創建基於此模板的新專案：
+
+```bash
+# 使用 degit 克隆模板 (推薦)
+npx degit Annam4ore/vue3-template my-new-project
+cd my-new-project
+
+# 安裝依賴
+npm install
+
+# 啟動開發伺服器
+npm run dev
+```
+
+### 傳統方式安裝
 
 ```bash
 # 克隆專案
