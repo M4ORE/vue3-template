@@ -24,7 +24,7 @@
 
 ```bash
 # 使用 degit 克隆模板 (推薦)
-npx degit Annam4ore/vue3-template my-new-project
+npx degit M4ORE/vue3-template my-new-project
 cd my-new-project
 
 # 安裝依賴
