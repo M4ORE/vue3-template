@@ -1,0 +1,48 @@
+/* src/assets/styles/global.css */
+
+/* 卡片樣式 */
+.glassmorphism-card {
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+
+/* .glassmorphism-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06) !important;
+  transform: translateY(-2px);
+} */
+
+.glassmorphism-card .v-data-table__tr:nth-child(odd) {
+  background: rgba(240, 240, 240, 0.3) !important;
+}
+
+/* 狀態標籤樣式 */
+.chip-light {
+  background-color: rgba(183, 223, 185, 0.4) !important;
+  color: #2e7d32 !important;
+}
+
+.chip-medium {
+  background-color: rgba(255, 213, 79, 0.3) !important;
+  color: #996100 !important;
+}
+
+.chip-severe {
+  background-color: rgba(255, 138, 128, 0.3) !important;
+  color: #d32f2f !important;
+}
+
+.chip-default {
+  background-color: rgba(189, 189, 189, 0.3) !important;
+  color: #616161 !important;
+}
+
+/* 輔助類 */
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
